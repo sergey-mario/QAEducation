@@ -21,7 +21,7 @@ public class Pen {
     }
 
     public String write(String word) {
-        if (!isWork()) {
+            if (!isWork()) {
             return "";
         }
         double sizeOfWord = word.length()*sizeLetter;
